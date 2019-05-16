@@ -41,7 +41,7 @@
     "windowsImageOffer": "WindowsServer",
     "windowsImageVersion": "latest",
     "dataDiskSize": 2,
-    "assetLocation": "https://raw.githubusercontent.com/Azure/AzureStack-QuickStart-Templates/master/201-vm-windows-comprehensive-with-managed-disks",
+    "assetLocation": "https://raw.githubusercontent.com/kevinsul/AzureStack-QuickStart-Templates/master/201-vm-windows-comprehensive-with-managed-disks",
     "staticSubnetName": "vmstaticsubnet",
     "virtualNetworkName": "[tolower(concat('vmvnet',resourceGroup().name))]",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
